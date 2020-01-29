@@ -9,6 +9,19 @@ class Node {
     }
 
     /**
+     * Print out the value of the LinkedList for testing
+     */
+    void printList() {
+        Node cur = this;
+        while (cur.next != null) {
+            System.out.print(cur.data +  " ");
+            cur = cur.next;
+        }
+        System.out.print(cur.data +  " ");
+        System.out.println();
+    }
+
+    /**
      * Add a node with value d to the tail of the LinkedList
      */
     void addLast(int d) {
