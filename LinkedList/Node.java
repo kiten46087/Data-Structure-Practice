@@ -1,6 +1,6 @@
 package LinkedList;
 
-class Node {
+public class Node {
     Node next = null;
     int data;
 
@@ -11,7 +11,7 @@ class Node {
     /**
      * Print out the value of the LinkedList for testing
      */
-    void printList() {
+    public void printList() {
         Node cur = this;
         while (cur.next != null) {
             System.out.print(cur.data +  " ");
@@ -24,7 +24,7 @@ class Node {
     /**
      * Add a node with value d to the tail of the LinkedList
      */
-    void addLast(int d) {
+    public void addLast(int d) {
         Node end = new Node(d);
         Node cur = this;
         while (cur.next != null) {
@@ -37,7 +37,7 @@ class Node {
      * Delete the node with valued from the LinkedList start with head.
      * And return the head of the new LinkedList.
      */
-    Node deleteNode(Node head, int d) {
+    public Node deleteNode(Node head, int d) {
         if (head == null) return null;
 
         Node cur = head;

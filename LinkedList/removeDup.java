@@ -11,7 +11,7 @@ class removeDup {
      * 
      * THIS METHOD USES EXTRA MEMORY!!!
      */
-    Node removeDupSet(Node head) {
+    public Node removeDupSet(Node head) {
         Node newHead = head;
         Node cur = head;
 
@@ -57,7 +57,7 @@ class removeDup {
      * This Solution uses two pointers and constant space complexity.
      * But this is for the unsorted list so this time complexity is O(n^2).
      */
-    Node removeDupNoSetUnsort(Node head) {
+    public Node removeDupNoSetUnsort(Node head) {
         Node cur = head;
 
         while (cur != null) {
@@ -79,7 +79,7 @@ class removeDup {
      * Test method which being used to generate
      * A unsorted LinkedList with random nodes.
      */
-    Node generateUnsortedList(int count) {
+    public Node generateUnsortedList(int count) {
         Node head = new Node((int) (Math.random() * 10));
         Node cur = head;
         
@@ -93,6 +93,7 @@ class removeDup {
     }
 
     public static void main(String[] args) {
+        
         // removeDup test = new removeDup();
 
         // Test for removing duplicates nodes inside the LinkedList.
