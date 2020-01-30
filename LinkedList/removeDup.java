@@ -93,7 +93,7 @@ class removeDup {
     }
 
     public static void main(String[] args) {
-        removeDup test = new removeDup();
+        // removeDup test = new removeDup();
 
         // Test for removing duplicates nodes inside the LinkedList.
 
