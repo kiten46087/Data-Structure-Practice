@@ -53,4 +53,21 @@ public class Node {
 
         return head;
     }
+
+
+    /**
+     * Delete the node between the head node and tail node and return the head node.
+     */
+    public void delMidNode(Node middle) {
+        Node cur = this;
+
+        while (cur.next != null) {
+            if (cur.next.data == middle.data) {
+                cur.next = cur.next;
+                break;
+            }
+            cur = cur.next;
+        }
+
+    }
 }
