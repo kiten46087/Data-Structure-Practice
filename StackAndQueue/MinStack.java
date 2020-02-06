@@ -2,6 +2,11 @@ package StackAndQueue;
 
 import java.util.Stack;
 
+/*
+ * This solution uses two stack one is for storing only the min value. 
+ * And the other is for store normal value.
+ * For max stack the answer should be the same.
+ */
 public class MinStack {
     Stack<Integer> min = new Stack<>();
     Stack<Integer> minStack = new Stack<>();
