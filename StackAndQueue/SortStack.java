@@ -39,7 +39,8 @@ public class SortStack {
 
     /**
      * This approach uses one additional stack, and the time complexity
-     * us O(N ^ 2).
+     * us O(N ^ 2). The time complexity can be more optimized if use one more stack
+     * Which we can use to merge sort or quick sort.
      */
     public Stack<Integer> sort(Stack<Integer> s) {
         Stack<Integer> r = new Stack<>();
