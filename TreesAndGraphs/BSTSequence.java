@@ -5,6 +5,7 @@ import java.util.LinkedList;
 
 public class BSTSequence {
     /* This is a very hard problem and I ddidn't come up with a solution. */
+    /* Next time when see a quesion like this im gonna do is TRUST AND FOCUS!!! */
     public ArrayList<LinkedList<Integer>> allSequences(TreeNode node) {
         ArrayList<LinkedList<Integer>> result = new ArrayList<>();
 
