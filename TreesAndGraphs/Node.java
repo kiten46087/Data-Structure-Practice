@@ -3,6 +3,7 @@ package TreesAndGraphs;
 import java.util.LinkedList;
 
 public class Node {
+    public enum State {Visting, Visited, Univisit};
     public int val;
     public String name;
     public LinkedList<Node> adjacentList;
