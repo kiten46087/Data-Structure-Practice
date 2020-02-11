@@ -23,10 +23,3 @@ public class Node {
         return adjacentList;
     }
 }
-
-    
-    
-    
-    
-    
-}
