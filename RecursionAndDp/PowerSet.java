@@ -34,7 +34,7 @@ public class PowerSet {
         return allSubsets;
     }
 
-    public ArrayList<Integer> convIntToSet(int x, ArrayList<Integer> set) {
+    public ArrayList<Integer> convertIntToSet(int x, ArrayList<Integer> set) {
         ArrayList<Integer> subset = new ArrayList<Integer>();
         int index = 0;
         for (int k = x; k > 0; k >>= 1) {
